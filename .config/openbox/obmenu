@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu>
+	<menu id="root-menu" label="OpenBox 3">
+		<item label="Terminal">
+			<action name="Execute">
+				<execute>konsole</execute>
+			</action>
+		</item>
+		<item label="Firefox">
+			<action name="Execute">
+				<execute>firefox</execute>
+			</action>
+		</item>
+		<item label="PCManFM">
+			<action name="Execute">
+				<execute>pcmanfm</execute>
+			</action>
+		</item>
+		<separator/>
+		<menu id="1" label="Development">
+			<item label="Eclipse">
+				<action name="Execute">
+					<execute>/home/nick/eclipse/java-2019-12/eclipse/eclipse</execute>
+				</action>
+			</item>
+			<item label="NetBeans IDE 8.1">
+				<action name="Execute">
+					<execute>sh &quot;/opt/netbeans-8.1/bin/netbeans&quot;</execute>
+				</action>
+			</item>
+			<item label="Qt Creator">
+				<action name="Execute">
+					<execute>/opt/Qt/Tools/QtCreator/bin/qtcreator</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="2" label="Editors">
+			<item label="Kate">
+				<action name="Execute">
+					<execute>kate</execute>
+				</action>
+			</item>
+			<item label="Nano">
+				<action name="Execute">
+					<execute>konsole -e nano</execute>
+				</action>
+			</item>
+			<item label="Vim">
+				<action name="Execute">
+					<execute>konsole -e vim</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="18" label="Games">
+			<item label="Minecraft Launcher">
+				<action name="Execute">
+					<execute>minecraft-launcher</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="6" label="Graphics">
+			<item label="GNU Image Manipulation Program">
+				<action name="Execute">
+					<execute>gimp-2.10</execute>
+				</action>
+			</item>
+			<item label="gThumb">
+				<action name="Execute">
+					<execute>gthumb</execute>
+				</action>
+			</item>
+			<item label="Gwenview">
+				<action name="Execute">
+					<execute>gwenview</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="7" label="Multimedia">
+			<item label="ALSA mixer">
+				<action name="Execute">
+					<execute>konsole -e alsamixer</execute>
+				</action>
+			</item>
+			<item label="DeaDBeeF">
+				<action name="Execute">
+					<execute>/opt/deadbeef-1.8.2/deadbeef</execute>
+				</action>
+			</item>
+			<item label="Dragon Player">
+				<action name="Execute">
+					<execute>dragon</execute>
+				</action>
+			</item>
+			<item label="JuK">
+				<action name="Execute">
+					<execute>juk</execute>
+				</action>
+			</item>
+			<item label="K3b">
+				<action name="Execute">
+					<execute>k3b</execute>
+				</action>
+			</item>
+			<item label="Kdenlive">
+				<action name="Execute">
+					<execute>kdenlive</execute>
+				</action>
+			</item>
+			<item label="PulseAudio Volume Control">
+				<action name="Execute">
+					<execute>pavucontrol</execute>
+				</action>
+			</item>
+			<item label="SimpleScreenRecorder">
+				<action name="Execute">
+					<execute>simplescreenrecorder</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="5" label="Network">
+			<item label="Discord">
+				<action name="Execute">
+					<execute>/usr/share/discord/Discord</execute>
+				</action>
+			</item>
+			<item label="FireFox">
+				<action name="Execute">
+					<execute>firefox</execute>
+				</action>
+			</item>
+			<item label="Steam">
+				<action name="Execute">
+					<execute>steam</execute>
+				</action>
+			</item>
+			<item label="Tor Browser">
+				<action name="Execute">
+					<execute>torbrowser-launcher</execute>
+				</action>
+			</item>
+			<item label="Tor Browser Launcher Settings">
+				<action name="Execute">
+					<execute>torbrowser-launcher --settings</execute>
+				</action>
+			</item>
+			<item label="Transmission">
+				<action name="Execute">
+					<execute>transmission-gtk</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="3" label="Office">
+			<item label="FreeOffice 2018 PlanMaker">
+				<action name="Execute">
+					<execute>planmaker18free</execute>
+				</action>
+			</item>
+			<item label="FreeOffice 2018 Presentations">
+				<action name="Execute">
+					<execute>presentations18free</execute>
+				</action>
+			</item>
+			<item label="FreeOffice 2018 TextMaker">
+				<action name="Execute">
+					<execute>textmaker18free</execute>
+				</action>
+			</item>
+			<item label="LibreOffice Impress">
+				<action name="Execute">
+					<execute>libreoffice</execute>
+				</action>
+			</item>
+			<item label="Okular">
+				<action name="Execute">
+					<execute>okular</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="39" label="Other">
+			<item label="Help">
+				<action name="Execute">
+					<execute>khelpcenter</execute>
+				</action>
+			</item>
+			<item label="Telnet">
+				<action name="Execute">
+					<execute>konsole -e telnet.netkit</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="4" label="Science">
+			<item label="Qalculate!">
+				<action name="Execute">
+					<execute>qalculate-gtk</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="19" label="Shells">
+			<item label="PCManFM">
+				<action name="Execute">
+					<execute>pcmanfm</execute>
+				</action>
+			</item>
+			<item label="GIT">
+				<action name="Execute">
+					<execute>konsole -e git</execute>
+				</action>
+			</item>
+			<item label="Konsole">
+				<action name="Execute">
+					<execute>konsole</execute>
+				</action>
+			</item>
+			<item label="ranger">
+				<action name="Execute">
+					<execute>konsole -e ranger</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="37" label="System">
+			<menu id="36" label="Settings">
+				<menu id="21" label="GNOME">
+					<item label="Advanced Network Configuration">
+						<action name="Execute">
+							<execute>nm-connection-editor</execute>
+						</action>
+					</item>
+					<item label="Settings">
+						<action name="Execute">
+							<execute>gnome-control-center</execute>
+						</action>
+					</item>
+					<item label="Tweaks">
+						<action name="Execute">
+							<execute>gnome-tweaks</execute>
+						</action>
+					</item>
+				</menu>
+				<item label="Apper">
+					<action name="Execute">
+						<execute>apper</execute>
+					</action>
+				</item>
+				<item label="ARandR">
+					<action name="Execute">
+						<execute>arandr</execute>
+					</action>
+				</item>
+				<item label="Desktop Preferences">
+					<action name="Execute">
+						<execute>pcmanfm --desktop-pref</execute>
+					</action>
+				</item>
+				<item label="File Manager">
+					<action name="Execute">
+						<execute>thunar-settings</execute>
+					</action>
+				</item>
+				<item label="KDE Connect Settings">
+					<action name="Execute">
+						<execute>kcmshell5 kcm_kdeconnect</execute>
+					</action>
+				</item>
+				<item label="KDE System Settings">
+					<action name="Execute">
+						<execute>systemsettings5</execute>
+					</action>
+				</item>
+				<item label="nitrogen">
+					<action name="Execute">
+						<execute>nitrogen</execute>
+					</action>
+				</item>
+				<item label="Openbox Configuration Manager">
+					<action name="Execute">
+						<execute>obconf</execute>
+					</action>
+				</item>
+				<item label="Preferred Applications">
+					<action name="Execute">
+						<execute>exo-preferred-applications</execute>
+					</action>
+				</item>
+				<item label="Print Settings">
+					<action name="Execute">
+						<execute>system-config-printer</execute>
+					</action>
+				</item>
+				<item label="Removable Drives and Media">
+					<action name="Execute">
+						<execute>thunar-volman-settings</execute>
+					</action>
+				</item>
+				<item label="Tint2 Settings">
+					<action name="Execute">
+						<execute>tint2conf</execute>
+					</action>
+				</item>
+				<item label="Xfontsel">
+					<action name="Execute">
+						<execute>xfontsel</execute>
+					</action>
+				</item>
+				<item label="Xvidtune">
+					<action name="Execute">
+						<execute>xvidtune</execute>
+					</action>
+				</item>
+			</menu>
+			<item label="Budgie Desktop Settings">
+				<action name="Execute">
+					<execute>budgie-desktop-settings</execute>
+				</action>
+			</item>
+			<item label="Bulk Rename">
+				<action name="Execute">
+					<execute>/usr/lib/x86_64-linux-gnu/Thunar/ThunarBulkRename</execute>
+				</action>
+			</item>
+			<item label="Debian Task selector">
+				<action name="Execute">
+					<execute>konsole -e su-to-root -c tasksel</execute>
+				</action>
+			</item>
+			<item label="Discover">
+				<action name="Execute">
+					<execute>plasma-discover</execute>
+				</action>
+			</item>
+			<item label="Editres">
+				<action name="Execute">
+					<execute>editres</execute>
+				</action>
+			</item>
+			<item label="GParted">
+				<action name="Execute">
+					<execute>gparted</execute>
+				</action>
+			</item>
+			<item label="Info Center">
+				<action name="Execute">
+					<execute>kinfocenter</execute>
+				</action>
+			</item>
+			<item label="KSysGuard">
+				<action name="Execute">
+					<execute>ksysguard</execute>
+				</action>
+			</item>
+			<item label="KWalletManager">
+				<action name="Execute">
+					<execute>kwalletmanager5</execute>
+				</action>
+			</item>
+			<item label="Logout (obsession)">
+				<action name="Execute">
+					<execute>obsession-logout</execute>
+				</action>
+			</item>
+			<item label="Power Statistics">
+				<action name="Execute">
+					<execute>gnome-power-statistics</execute>
+				</action>
+			</item>
+			<item label="Pstree">
+				<action name="Execute">
+					<execute>konsole -e pstree.x11</execute>
+				</action>
+			</item>
+			<item label="Tint2">
+				<action name="Execute">
+					<execute>tint2</execute>
+				</action>
+			</item>
+			<item label="Top">
+				<action name="Execute">
+					<execute>konsole -e top</execute>
+				</action>
+			</item>
+			<item label="Xclipboard">
+				<action name="Execute">
+					<execute>xclipboard</execute>
+				</action>
+			</item>
+			<item label="Xev">
+				<action name="Execute">
+					<execute>x-terminal-emulator -e xev</execute>
+				</action>
+			</item>
+			<item label="Xkill">
+				<action name="Execute">
+					<execute>xkill</execute>
+				</action>
+			</item>
+			<item label="Xload">
+				<action name="Execute">
+					<execute>xload</execute>
+				</action>
+			</item>
+			<item label="Xrefresh">
+				<action name="Execute">
+					<execute>xrefresh</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="38" label="Utilities">
+			<item label="Archive Manager">
+				<action name="Execute">
+					<execute>file-roller</execute>
+				</action>
+			</item>
+			<item label="Ark">
+				<action name="Execute">
+					<execute>ark</execute>
+				</action>
+			</item>
+			<item label="Bc">
+				<action name="Execute">
+					<execute>konsole -e bc</execute>
+				</action>
+			</item>
+			<item label="CherryTree">
+				<action name="Execute">
+					<execute>cherrytree</execute>
+				</action>
+			</item>
+			<item label="CMatrix">
+				<action name="Execute">
+					<execute>konsole -e cmatrix</execute>
+				</action>
+			</item>
+			<item label="compton">
+				<action name="Execute">
+					<execute>compton</execute>
+				</action>
+			</item>
+			<item label="Dc">
+				<action name="Execute">
+					<execute>konsole -e dc</execute>
+				</action>
+			</item>
+			<item label="File Manager">
+				<action name="Execute">
+					<execute>exo-open --launch FileManager</execute>
+				</action>
+			</item>
+			<item label="Files">
+				<action name="Execute">
+					<execute>nemo</execute>
+				</action>
+			</item>
+			<item label="Help">
+				<action name="Execute">
+					<execute>yelp</execute>
+				</action>
+			</item>
+			<item label="KCalc">
+				<action name="Execute">
+					<execute>kcalc</execute>
+				</action>
+			</item>
+			<item label="KFind">
+				<action name="Execute">
+					<execute>kfind</execute>
+				</action>
+			</item>
+			<item label="Klipper">
+				<action name="Execute">
+					<execute>klipper</execute>
+				</action>
+			</item>
+			<item label="KMag">
+				<action name="Execute">
+					<execute>kmag</execute>
+				</action>
+			</item>
+			<item label="KMouseTool">
+				<action name="Execute">
+					<execute>kmousetool</execute>
+				</action>
+			</item>
+			<item label="KMouth">
+				<action name="Execute">
+					<execute>kmouth</execute>
+				</action>
+			</item>
+			<item label="KNotes">
+				<action name="Execute">
+					<execute>knotes</execute>
+				</action>
+			</item>
+			<item label="Spectacle">
+				<action name="Execute">
+					<execute>spectacle</execute>
+				</action>
+			</item>
+			<item label="Sweeper">
+				<action name="Execute">
+					<execute>sweeper</execute>
+				</action>
+			</item>
+			<item label="Terminal Emulator">
+				<action name="Execute">
+					<execute>exo-open --launch TerminalEmulator</execute>
+				</action>
+			</item>
+			<item label="Xcalc">
+				<action name="Execute">
+					<execute>xcalc</execute>
+				</action>
+			</item>
+		</menu>
+		<separator/>
+		<menu id="40" label="OpenBox">
+			<menu id="client-list-menu"/>
+			<item label="Obmenu">
+				<action name="Execute">
+					<execute>obmenu</execute>
+				</action>
+			</item>
+			<item label="Reconfigure">
+				<action name="Reconfigure"/>
+			</item>
+			<separator/>
+			<item label="Exit">
+				<action name="Exit"/>
+			</item>
+		</menu>
+	</menu>
+</openbox_menu>

@@ -1,0 +1,8 @@
+# Set wallpaper
+nitrogen --restore &
+
+#Starting toolbar
+tint2 &
+
+#Start compton
+compton &

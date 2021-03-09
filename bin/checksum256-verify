@@ -1,0 +1,10 @@
+#!/bin/bash
+
+file=$1
+provided=$2
+
+if [[ $(sha256sum $file | awk '{print $1}') == $provided ]]; then
+		echo "File Verified"
+else
+		echo "File not Verified"
+fi

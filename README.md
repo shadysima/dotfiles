@@ -1,3 +1,3 @@
-# supernovakova/configs
+# shadysima/configs
 
-A personal repository that stores various linux configs open for anyone to use 
+My personal repository housing the various configs and dotfiles I use across my Linux systems 

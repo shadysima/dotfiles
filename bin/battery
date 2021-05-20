@@ -1,0 +1,14 @@
+#!/bin/sh
+
+echo "Current Battery Level: $(cat /sys/class/power_supply/BAT0/capacity)%"
+
+state=$(cat /sys/class/power_supply/BAT0/status)
+
+if [[ "$state" == "Discharging" ]]; then
+       status="D"
+else
+	status="C"
+fi	
+
+echo "Current Status: $status"
+#echo "Current Status: $(cat /sys/class/power_supply/BAT0/status)"
